@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "rollup -c",
-    "dev": "rollup -c -w",
+    "dev": "--host",
     "start": "sirv public --no-clear",
     "heroku-postbuild": "npm run build"
   },
